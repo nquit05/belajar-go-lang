@@ -44,4 +44,12 @@ func main() {
 	copySlice := make([]string, 1, cap(newSlice))
 	copy(copySlice, newSlice)
 	fmt.Println(copySlice)
+
+	iniArray := [...]int{1, 2, 3, 4, 5}
+	iniSlice := []int{1, 2, 3, 4, 5}
+
+	fmt.Println(iniArray)
+	fmt.Println(iniSlice)
+
+	// slice lebih sering di pakai dari pada array karena slice lebih dinamis daripada array
 }
